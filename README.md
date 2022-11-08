@@ -24,7 +24,7 @@
 ```python
 OSError: Unable to locate Ghostscript on paths
   ```
-Решения: [YouTube](https://www.youtube.com/watch?v=qCLW4Ta3ic4&t=203s) 
+Решение: [YouTube](https://www.youtube.com/watch?v=qCLW4Ta3ic4&t=203s) 
 после установки перезагрузить пк
 ## Authors
 
