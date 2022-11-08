@@ -24,6 +24,7 @@ root.option_add("*Font", "consolas 11")
 root.option_add("*Label.Font", "consolas 11")
 root.iconbitmap("sourse\main.ico")
 
+root.resizable(False, False)
 root.geometry(str(WEIGHT) + "x" + str(HEIGHT))
 
 Low_Res_Canvas = tk.Canvas(root, width=162, height=162, bg="white")
@@ -43,8 +44,8 @@ def paint(event):
 
 def erase(event):
     x, y = (event.x), (event.y)
-    High_Res_Canvas.create_rectangle(x, y, x + 4, y + 4, fill="white", width=0)
-    Low_Res_Canvas.create_rectangle(x / 4, y / 4, x / 4, y / 4, fill="white", width=0)
+    High_Res_Canvas.create_rectangle(x-16, y-16, x +16, y + 16, fill="white", width=0,outline="white")
+    Low_Res_Canvas.create_rectangle((x / 4)-4, (y / 4)-4, (x / 4)+4, (y / 4)+4, fill="white", width=0,outline="white")
 
 
 def cursor(event):
@@ -72,6 +73,7 @@ def save():
     Code_Window.title("Code")
     Code_Window.geometry("300x400")
     Code_Window.iconbitmap("sourse\code.ico")
+    Code_Window.resizable(False, False)
 
     Save_Button = tk.Button(Code_Window, text="Save", command=lambda: save_code(Code_Window))
     Save_Button.pack()
