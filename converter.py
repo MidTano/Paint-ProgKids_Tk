@@ -12,7 +12,7 @@ def convert_png_to_code(image, y):
             if img.getpixel((x, z)) != (255, 255, 255):
                 for _ in range(4):
                     if img.getpixel((x, z)) == RGB_COLOR[_]:
-                        output.append(f"world.setBlock({x},{y},{z},{LIST_BLOCK[_]})\n")
+                        output.append(f"world.setBlock({x-63},{y},{z-63},{LIST_BLOCK[_]})\n")
 
     return output
 
