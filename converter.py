@@ -1,7 +1,7 @@
 from PIL import Image
 
-LIST_BLOCK = [152, 2, 54, 173]
-RGB_COLOR = [(128, 0, 0), (0, 128, 0), (0, 0, 128), (0, 0, 0)]
+LIST_BLOCK = [152, 2, 57, 173]
+RGB_COLOR = [(255, 0, 0), (0, 128, 0), (0, 0, 255), (0, 0, 0)]
 
 
 def convert_png_to_code(image, y):
