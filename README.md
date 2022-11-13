@@ -1,15 +1,6 @@
-
-
 # Paint-ProgMine
+
 Утилита для конвертации рисунка в код для сервера ProgMine
-=======
-![Logo](https://i.imgur.com/y6jhti2.png)
-
-
-# Paint-ProgKids
-
-Утилита для  создания и конвертации рисунка в код для сайта ProgKids
->>>>>>> 6249ff4e76ab5832c1ffd04171086c39ee2e1111
 
 
 ## Demo
@@ -29,7 +20,7 @@
 ```python
 OSError: Unable to locate Ghostscript on paths
   ```
-Решение: [YouTube](https://www.youtube.com/watch?v=qCLW4Ta3ic4&t=203s) 
+Решения: [YouTube](https://www.youtube.com/watch?v=qCLW4Ta3ic4&t=203s) 
 после установки перезагрузить пк
 ## Authors
 
