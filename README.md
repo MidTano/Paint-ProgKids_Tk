@@ -2,7 +2,7 @@
 ![Logo](https://i.imgur.com/y6jhti2.png)
 
 
-# Art-ProgKids
+# Paint-ProgKids
 
 Утилита для  создания и конвертации рисунка в код для сайта ProgKids
 
