@@ -1,10 +1,6 @@
+# Paint-ProgMine
 
-![Logo](https://i.imgur.com/y6jhti2.png)
-
-
-# Art-ProgKids
-
-Утилита для конвертации рисунка в код для сайта ProgKids.com
+Утилита для конвертации рисунка в код для сервера ProgMine
 
 
 ## Demo

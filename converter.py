@@ -6,13 +6,13 @@ RGB_COLOR = [(255, 0, 0), (0, 128, 0), (0, 0, 255), (0, 0, 0)]
 
 def convert_png_to_code(image, y):
     img = Image.open(image)
-    output = ["import mc;from mc import world\n"]
+    output = []
     for x in range(img.size[0]):
         for z in range(img.size[1]):
             if img.getpixel((x, z)) != (255, 255, 255):
                 for _ in range(4):
                     if img.getpixel((x, z)) == RGB_COLOR[_]:
-                        output.append(f"world.setBlock({x-63},{y},{z-63},{LIST_BLOCK[_]})\n")
+                        output.append(f"mc.setBlock({x-129},{y},{z+134},{LIST_BLOCK[_]})\n")
 
     return output
 
