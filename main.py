@@ -10,7 +10,7 @@ LIST_COLOR = ["red", "green", "blue", "black"]
 COLOR = LIST_COLOR[3]
 
 IMAGE_NAME = "sourse\\126x126.png"
-Y_ART=120
+Y_ART=50
 
 WEIGHT = 600
 HEIGHT = 800
@@ -19,7 +19,7 @@ BTN_WIDTH = 10
 BTN_HEIGHT = 2
 
 root = tk.Tk()
-root.title("Paint-ProgMine")
+root.title("Paint-ProgKids")
 root.option_add("*Font", "consolas 11")
 root.option_add("*Label.Font", "consolas 11")
 root.iconbitmap("sourse\main.ico")
